@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Maven+Pro:wght@400;500&display=swap');
+
+.bg-image {
+  height:55em;
+  width:auto;
+  background-image: url("../assets/bg-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+// mobile
+@media screen and (max-width: 600px) {
+}
