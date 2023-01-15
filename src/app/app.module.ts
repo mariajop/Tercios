@@ -7,6 +7,9 @@ import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import { NewsComponent } from './components/news/news.component';
+import { MatchFinderComponent } from './components/bar-finder/match-finder.component';
+import { InfoFlayerComponent } from './components/info-flayer/info-flayer.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { NewsComponent } from './components/news/news.component';
     HeaderComponent,
     HomeComponent,
     AboutComponent,
-    NewsComponent
+    NewsComponent,
+    MatchFinderComponent,
+    InfoFlayerComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
