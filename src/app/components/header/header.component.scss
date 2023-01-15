@@ -48,10 +48,32 @@ header {
 
   // mobile
   @media screen and (max-width: 600px) {
-    nav a {
-      margin-right: 0;
-      padding: .2em;
+    nav{
+      display: none;
     }
   }
+}
+
+.showMenu {
+  display: block;
+  position: absolute;
+  opacity: 85%;
+  text-align: right;
+  width: 100%;
+  right: 0;
+  top: 6.4em;
+  background-color: rgb(51, 51, 51);
+  a {
+    font-family: "Maven Pro 500", sans-serif;
+    font-size: 1.1em;
+    display: block;
+    padding: 1em;
+  }
+  a:hover {
+    background-color: #82CD47;
+  }
+}
+.doNotShowMenu{
+  display: none;
 }
 

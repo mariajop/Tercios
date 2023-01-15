@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MatchFinderComponent } from './match-finder.component';
+import { MatchFinderComponent } from './bar-finder.component';
 
 describe('MatchFinderComponent', () => {
   let component: MatchFinderComponent;

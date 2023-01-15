@@ -7,9 +7,10 @@ import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import { NewsComponent } from './components/news/news.component';
-import { MatchFinderComponent } from './components/bar-finder/match-finder.component';
+import { BarFinderComponent } from './components/bar-finder/bar-finder.component';
 import { InfoFlayerComponent } from './components/info-flayer/info-flayer.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { BarFinderFormComponent } from './components/bar-finder-form/bar-finder-form.component';
 
 @NgModule({
   declarations: [
@@ -18,9 +19,10 @@ import { FooterComponent } from './components/footer/footer.component';
     HomeComponent,
     AboutComponent,
     NewsComponent,
-    MatchFinderComponent,
+    BarFinderComponent,
     InfoFlayerComponent,
-    FooterComponent
+    FooterComponent,
+    BarFinderFormComponent
   ],
   imports: [
     BrowserModule,

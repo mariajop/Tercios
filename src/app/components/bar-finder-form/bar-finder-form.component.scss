@@ -1,0 +1,65 @@
+ form {
+    background-color: white;
+    opacity: 85%;
+    border-radius: 12px;
+    width: 33em;
+    height: 13em;
+    margin: 1em auto 0;
+    padding: .3em 0 ;
+    text-align: left;
+    label {
+      color: black;
+      font-family: "Maven Pro 500", sans-serif;
+      font-size: .8em;
+      margin: 0 0 0 1em;
+    }
+    input {
+      font-size: 1em;
+      margin: 0 auto 1em;
+      padding: .75em 1.25em;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      display: block;
+      width: 90%;
+      height: 1em;
+    }
+   button {
+     font-size: 1.2em;
+     font-family: "Maven Pro 500", sans-serif;
+     color: white;
+     background-color: #54B435;
+     width: 98%;
+     margin: 0 0 0 .3em;
+     padding: .5em;
+     border: 1px solid #ccc;
+     border-radius: 10px;
+     cursor: pointer;
+   }
+   button:hover {
+     background-color: #82CD47;
+   }
+ }
+ // tablet
+ @media screen and (max-width: 992px) {
+  form {
+    width: 25em;
+    input {
+      width: 85%;
+    }
+    button {
+      width: 97%
+    }
+  }
+ }
+ // mobile
+ @media screen and (max-width: 600px) {
+   form {
+     width: 20em;
+     input {
+       width: 85%;
+     }
+     button {
+       width: 97%
+     }
+   }
+ }
