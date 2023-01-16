@@ -1,0 +1,23 @@
+.about-img {
+  height: 48em;
+  width: auto;
+  background-image: url("../../../assets/about-image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: zoomOut 4s;
+}
+// mobile
+@media screen and (max-width: 600px) {
+  main {
+    height: 25em;
+  }
+}
+
+@keyframes zoomOut {
+  from {
+    transform: scale(1.05);
+  }
+  to {
+    transform: scale(1);
+  }
+}
