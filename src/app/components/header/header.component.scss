@@ -4,11 +4,6 @@ header {
   display: flex;
   justify-content: space-between;
 
-  h1 {
-    font-family: 'Major Mono Display', monospace;
-    text-shadow: black 2px 2px 0;
-  }
-
   a {
     text-decoration: none;
     color: white;
@@ -29,7 +24,6 @@ header {
 
     a.main-anchor {
       background-color: #379237;
-      font-family: 'Maven Pro 500', sans-serif;
       padding: .61em;
       margin-left: .8em
     }

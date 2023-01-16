@@ -1,1 +1,26 @@
-* { margin: 0; padding: 0; }
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #d6efc7;
+}
+
+h1.logo {
+  font-family: 'Major Mono Display', monospace;
+  text-shadow: black 4px 4px 0;
+}
+
+h2 {
+  font-family: 'Bungee', sans-serif;
+}
+
+h3 {
+  font-family: 'Bungee', sans-serif;
+}
+
+p, a, label {
+  font-family: "Maven Pro 500", sans-serif;
+  line-height: 1.5em;
+}

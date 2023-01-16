@@ -1,0 +1,30 @@
+.features {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 2%;
+
+  &__img {
+    height: 7rem;
+    margin-bottom: 4%;
+    margin-top: 2%;
+  }
+
+  &__element {
+    text-align: center;
+    padding: 10% 7%;
+    display: inline-block;
+    min-width: 33%;
+  }
+
+  &__element p {
+    font-size: 1.3em;
+    width: 70%;
+    margin: 1em auto;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .features{
+    grid-template-columns: 1fr;
+  }
+}
