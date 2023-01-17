@@ -20,6 +20,10 @@
     position: relative;
     left: 40%;
     top: 30%;
+    animation: slideInFromRight 2s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    transform: translateX(50px);
   }
 
 }
@@ -64,5 +68,15 @@
   }
   to {
     transform: scale(1);
+  }
+}
+@keyframes slideInFromRight {
+  from {
+    opacity: 0.3;
+    transform: translateX(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
   }
 }
