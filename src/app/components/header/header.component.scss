@@ -49,6 +49,7 @@ header {
 }
 
 .showMenu {
+  z-index: 998;
   display: block;
   position: absolute;
   opacity: 85%;
