@@ -1,7 +1,7 @@
 <header>
   <a routerLink="/"><h1 class="logo">Tercios</h1></a>
   <nav>
-    <a routerLink="/about">About</a>
+    <a href="#about">About</a>
     <a routerLink="/news">News</a>
     <a class="main-anchor">I'm a bar</a>
   </nav>
@@ -9,7 +9,7 @@
     <img src="../../../assets/menu-bar.png" alt="dropdown">
   </button>
   <div [ngClass]="dropdown ? 'showMenu' : 'doNotShowMenu'">
-    <a routerLink="/about">About</a>
+    <a href="#about">About</a>
     <a routerLink="/news">News</a>
     <a class="main-anchor">I'm a bar</a>
   </div>
