@@ -123,7 +123,10 @@
       }
     }
     &__article-wrapper {
-      padding: .5em 1.5em;
+      padding: .2em 1em;
+      article {
+        padding: 2em 1em;
+      }
     }
   }
 }
