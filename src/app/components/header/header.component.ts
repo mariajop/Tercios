@@ -1,4 +1,5 @@
-import {Component, ElementRef, HostListener, OnInit, Renderer2, ViewChild} from '@angular/core';
+import {Component, ElementRef, OnInit, Renderer2, ViewChild} from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -10,15 +11,16 @@ export class HeaderComponent implements OnInit {
   dropdown = false;
   screenWidth = window.innerWidth;
 
-  constructor(private renderer: Renderer2) {
+  constructor(private renderer: Renderer2,
+    private router: Router) {
   }
 
   ngOnInit(): void {
-    this.renderer.listen('window', 'click', (e: Event) => {
-      if (!this.dropdownDiv.nativeElement.contains(e.target)) {
-        this.dropdown = false;
-      }
-    });
+    // this.renderer.listen('window', 'click', (e: Event) => {
+    //   if (!this.dropdownDiv.nativeElement.contains(e.target)) {
+    //     this.dropdown = false;
+    //   }
+    // });
     this.renderer.listen('window', 'resize', (event) => {
       this.screenWidth = event.target.innerWidth;
     });
