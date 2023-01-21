@@ -13,7 +13,7 @@
   <button #dropdownDiv (click)="toggleDropdown()" class="dropdown-button" *ngIf="screenWidth <= 600">
     <img src="../../../assets/menu-bar.png" alt="dropdown">
   </button>
-  <div [ngClass]="dropdown ? 'showMenu' : 'doNotShowMenu'">
+  <div [ngClass]="dropdown ? 'showMenu' : 'hideMenu'">
     <a href="#about">About</a>
     <a routerLink="/news">News</a>
     <a class="main-anchor">I'm a bar</a>
