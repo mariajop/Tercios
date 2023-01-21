@@ -8,7 +8,7 @@ import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import { NewsComponent } from './components/news/news.component';
 import { BarFinderComponent } from './components/bar-finder/bar-finder.component';
-import { InfoFlayerComponent } from './components/info-flayer/info-flayer.component';
+import { InfoFlyerComponent } from './components/info-flyer/info-flyer.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { BarFinderFormComponent } from './components/bar-finder-form/bar-finder-form.component';
 
@@ -20,7 +20,7 @@ import { BarFinderFormComponent } from './components/bar-finder-form/bar-finder-
     AboutComponent,
     NewsComponent,
     BarFinderComponent,
-    InfoFlayerComponent,
+    InfoFlyerComponent,
     FooterComponent,
     BarFinderFormComponent
   ],

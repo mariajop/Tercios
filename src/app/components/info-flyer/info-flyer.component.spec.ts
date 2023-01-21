@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { InfoFlayerComponent } from './info-flayer.component';
+import { InfoFlyerComponent } from './info-flyer.component';
 
-describe('InfoFlayerComponent', () => {
-  let component: InfoFlayerComponent;
-  let fixture: ComponentFixture<InfoFlayerComponent>;
+describe('InfoFlyerComponent', () => {
+  let component: InfoFlyerComponent;
+  let fixture: ComponentFixture<InfoFlyerComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ InfoFlayerComponent ]
+      declarations: [ InfoFlyerComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(InfoFlayerComponent);
+    fixture = TestBed.createComponent(InfoFlyerComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
