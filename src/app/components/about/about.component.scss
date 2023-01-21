@@ -8,11 +8,11 @@
     color: white;
   }
 
-  h1.first-sentence {
+  .top-sentence {
     color: #d6efc7
   }
 
-  &__img {
+  &__flyer {
     height: 100vh;
     position: relative; /* or absolute */
     z-index: -1;
